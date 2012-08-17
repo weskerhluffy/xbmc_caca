@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmibynature" name="Filmi BY NATURE"
+	version="1.9.0" provider-name="AJ">
+	<requires>
+		<import addon="xbmc.python" version="1.0" />
+		<import addon="script.module.simplejson" version="2.0.10" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Watch India TV Shows, MOVIES(Hindi, Telugu, Tamil), Music and
+			more </summary>
+		<description>Watch latest full length Blueray quality movies, LIVE TV,
+			HQ TV Shows, Always LATEST.</description>
+		<disclaimer>This addon makes no warranties, expressed or implied, and
+			hereby disclaims and negates all other warranties, including without
+			limitation, implied warranties or conditions of merchantability,
+			fitness for a particular purpose, or non-infringement of intellectual
+			property or other violation of rights. Further, FILMI by NATURE addon
+			does not warrant or make any representations concerning the accuracy,
+			likely results, or reliability of the use of the materials on the
+			Internet web site where from data is retrieved or otherwise relating
+			to such materials or on any sites linked to this addon. Videos are
+			soruced from video-hosting websites that are having full rights to
+			remove such access to video if required.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GPL v3</license>
+	</extension>
+</addon>

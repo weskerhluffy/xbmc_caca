@@ -1,0 +1,332 @@
+[B]Version v1.9.0[/B]
+
+Dailymotion links fixed.
+
+[B]Version v1.8.9[/B]
+
+Disabled bharatmovies movie links.
+
+[B]Version v1.8.8[/B]
+
+YouTube links fixed.
+
+[B]Version v1.8.6[/B]
+
+Videobb links fixed.
+
+[B]Version v1.8.5[/B]
+
+LIVE section removed
+
+[B]Version v1.8.3[/B]
+
+Few bug fixes
+
+[B]Version v1.8.1[/B]
+
+Few bug fixes
+
+[B]Version v1.8.0[/B]
+
+New add-on released for TV on DESI ZONE
+
+[B]Version v1.7.9[/B]
+
+Fixed TV links.
+
+[B]Version v1.7.8[/B]
+
+Only working live links.
+
+[B]Version v1.7.7[/B]
+
+Quick fix.
+
+[B]Version v1.7.6[/B]
+
+Back to real TV drama website, removed temp links.
+
+[B]Version v1.7.5[/B]
+
+Few Quick Fixes
+
+[B]Version v1.7.4[/B]
+
+Updated TV Shows links to get links from KC temporarily.
+
+[B]Version v1.7.3[/B]
+
+MTA links added again in News category.
+
+[B]Version v1.7.2[/B]
+
+Bug fixed.
+
+[B]Version v1.7.1[/B]
+
+ROSHAN TV LIVE LINKS.
+
+[B]Version v1.7.0[/B]
+
+MTA Urdu link updated.
+
+[B]Version v1.6.9[/B]
+
+New moviesntv.com live streams added.
+
+[B]Version v1.6.8[/B]
+
+New mast.tv live streams added.
+
+[B]Version v1.6.7[/B]
+
+New setting for DesiTvStreams.com.
+
+[B]Version v1.6.5[/B]
+
+Added veevr video link support.
+
+[B]Version v1.6.4[/B]
+
+MTA live links updated.
+
+[B]Version v1.6.3[/B]
+
+Z-SHARE video link will work now.
+
+[B]Version v1.6.2[/B]
+
+Desi Streams are made consistent and added setting to select streaming server.
+
+[B]Version v1.6.1[/B]
+
+Added new YouTube video link support.
+
+[B]Version v1.6.0[/B]
+
+9XM live links updated
+
+[B]Version v1.5.9[/B]
+
+-Removed few links which are illegal and links stopped working.
+
+[B]Version v1.5.8[/B]
+
+-Quick fix for DesiTVStreams.com
+
+[B]Version v1.5.7[/B]
+
+-Added DesiTVStreams.com: Sports and Pakistan Channels compatibility.
+
+[B]Version v1.5.6[/B]
+
+-Added DesiTVStreams.com package compatibility.
+
+[B]Version v1.5.5[/B]
+
+-Removed unofficial channels.
+
+[B]Version v1.5.4[/B]
+
+-A new link and bug fix.
+
+[B]Version v1.5.3[/B]
+
+-Updated LIVE links
+
+[B]Version v1.5.2[/B]
+
+-Removed deprecated functions
+
+[B]Version v1.5.1[/B]
+
+-Updated Live TV links
+
+[B]Version v1.5.0[/B]
+
+-Added sub-categories in Octoshape
+
+[B]Version v1.4.9[/B]
+
+-A Fix
+
+[B]Version v1.4.8[/B]
+
+-Added few more LIVE links with a fix in TV shows.
+
+[B]Version v1.4.7[/B]
+
+-Added new LIVE links.
+
+[B]Version v1.4.6[/B]
+
+-Added new LIVE links.
+
+[B]Version v1.4.5[/B]
+
+-Added OCTOSHAPE plugin support for MAC, WINDOWS and LINUX.
+
+[B]Version v1.4.4[/B]
+
+-Added new NEWS channels.
+
+[B]Version v1.4.3[/B]
+
+-Fixed music video links, Zee TV and Set Max.
+
+[B]Version v1.4.2[/B]
+
+-Added simplejson dependency tag.
+
+[B]Version v1.4.1[/B]
+
+-Added VIMEO video link support.
+
+[B]Version v1.3.8 to v1.4.0[/B]
+
+-MORE LIVE TV links.
+
+[B]Version v1.3.7[/B]
+
+-Added new LIVE TV links.
+
+[B]Version v1.3.6[/B]
+
+-Added new video options in Context Menu: Queue Video, Play Video Queue, Clear Video Queue
+
+[B]Version v1.3.5[/B]
+
+-Added progress dialog to load playlist links.
+
+[B]Version v1.3.4[/B]
+
+-Added LIVE links.
+
+[B]Version v1.3.3[/B]
+
+-Added Youtube Video Quality control settings.
+
+[B]Version v1.3.2[/B]
+
+-Added new YouTube channels and fixed YouTube playlist links.
+
+[B]Version v1.3.1[/B]
+
+-Notification while playing video.
+
+[B]Version v1.3.0[/B]
+
+-Fix for YouTube Channel.
+
+[B]Version v1.2.9[/B]
+
+-Fix for apple TV 2.
+
+[B]Version v1.2.8[/B]
+
+-Added MUSIC Videos.
+
+[B]Version v1.2.7[/B]
+
+-To increase speed of loading check Settings.
+
+[B]Version v1.2.5[/B]
+
+-More Movies.
+
+[B]Version v1.2.4[/B]
+
+-New cool icons.
+
+[B]Version v1.2.3[/B]
+
+-Made link fixes.
+
+[B]Version v1.2.2[/B]
+
+-More YouTube Channels added.
+
+[B]Version v1.2.1[/B]
+
+-Set maximum videos per page of Uplaods. No limit for Playlists per page.
+
+[B]Version v1.2.0[/B]
+
+-Enable YouTube pagination.
+
+[B]Version v1.1.9[/B]
+
+-Can remove YouTube channel.
+
+[B]Version v1.1.8[/B]
+
+-images Aligned.
+
+[B]Version v1.1.7[/B]
+
+-Choice is yours. Add your YouTube channels.
+
+[B]Version v1.1.6[/B]
+
+-Added version control to metadata file.
+
+[B]Version v1.1.5[/B]
+
+-Preloaded image links in Metadata file.
+
+[B]Version v1.1.4[/B]
+
+-Performance Fix.
+
+[B]Version v1.1.3[/B]
+
+-Added Youtube uploads.
+
+[B]Version v1.1.2[/B]
+
+-Quick Fix.
+
+[B]Version v1.1.0[/B]
+
+-Moving onto next big release soon.
+
+[B]Version v1.0.9[/B]
+
+-Made few alterations
+
+[B]Version v1.0.8[/B]
+
+-Retrieve Poster for Movies
+
+[B]Version v1.0.7[/B]
+
+-Quick Fix
+
+[B]Version v1.0.6[/B]
+
+-Added songs title
+
+[B]Version v1.0.5[/B]
+
+-Added YouTube Channels
+
+[B]Version v1.0.4[/B]
+
+-Corrected Playlist links
+
+[B]Version v1.0.3[/B]
+
+-Quick Fix of Script Error.
+
+[B]Version v1.0.2[/B]
+
+-Quick Fix of Script Error.
+
+[B]Version v1.0.1[/B]
+
+-Fixed Youtube playlist video info problem.
+
+[B]Version v1.0.0[/B]
+
+- Filmi By NATURE all new India TV Shows, Movies, Music and more.
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>		
+	<category label="Advanced Search">
+	<setting label="Advanced search options:" type="lsep" />
+	<setting label="[B]Keywords[/B]" id="enable_keywords" type="enum" default="0" lvalues="30000|30001|30002"/>
+		<setting subsetting="true" label="[I]set default value[/I]" id="keywords" type="text" default=""/>
+	<setting label="[B]Tags[/B][I]{Separated by commas}[/I]" id="enable_tags" type="enum" default="0" lvalues="30000|30001|30002"/>
+		<setting subsetting="true" label="[I]set default value[/I]" id="tags" type="text" default=""/>
+	<setting label="[B]Submitted by[/B]" id="enable_submitter" type="enum" default="0" lvalues="30000|30001|30002"/>
+		<setting subsetting="true" label="[I]set default value[/I]" id="submitter" type="text" default=""/>
+	<setting label="[B]Category[/B]" id="category" type="enum" default="0" lvalues="30101|30102|30103|30104|30105|30106|30107|30108|30109|30110|30111|30112"/>
+	<setting label="[B]Minimum length[/B][I]{minutes}[/I]" id="minmin" type="enum" default="0" lvalues="30020|30021|30022|30023|30024|30025|30026|30027"/>
+	<setting label="[B]Minimum rating[/B]" id="minrating" type="enum" default="0" lvalues="30010|30011|30012|30013|30014|30015"/>
+	<setting label="[B]Language[/B]" id="language" type="enum" default="0" lvalues="30200|30201|30202|30203|30204|30205|30206|30207|30208|30209|30210|30211|30212|30213|30214|30215|30216|30217|30218|30219|30220|30221|30222|30223|30224|30225|30226|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238|30239|30240|30241|30242|30243|30244|30245|30246|30247|30248|30249|30250|30251|30252|30253|30254|30255|30256|30257|30258|30259|30260|30261|30262|30263|30264|30265|30266|30267|30268|30269|30270|30271|30272|30273|30274|30275|30276|30277"/>
+	</category>
+	
+	<category label="Downloads">
+	 <setting id="download_folder" type="folder" label="30030" default=""/>
+	 <setting id="del_incomplete_dwnld" type="bool" label="30031" default="true"/>
+	 <setting id="ask_filename" type="bool" label="30032" default="false"/>
+	</category>
+</settings>

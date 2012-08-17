@@ -1,0 +1,78 @@
+{
+  "NDTV": {
+    "NDTV 24x7": {
+      "channelUrl": "http://bglive-a.bitgravity.com/ndtv/247lo/live/native",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/nn/ndtv_24x7.jpg"
+    },
+    "NDTV PROFIT": {
+      "channelUrl": "http://bglive-a.bitgravity.com/ndtv/prolo/live/native",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/nn/ndtv_profit.jpg"
+    },
+    "NDTV INDIA": {
+      "channelUrl": "http://bglive-a.bitgravity.com/ndtv/indlo/live/native",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/nn/ndtv_india.jpg"
+    },
+    "NDTV HINDU": {
+      "channelUrl": "http://bglive-a.bitgravity.com/ndtv/indhi/live/native",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/nn/ndtv_hindu.jpg"
+    },
+    "NDTV GOOD TIMES": {
+      "channelUrl": "http://bglive-a.bitgravity.com/ndtv/prohi/live/native",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/nn/ndtv_good_times.jpg"
+    }
+  },
+  "MUSIC": {
+    "ZOOM TV": {
+      "channelUrl": "rtmp://cdn.rtmp1.yupptv.tv/nwk app=nwk playpath=zoomtv swfUrl=http://www.yupptv.com/yupptvhdflvplayer/hdplayer.swf swfVfy=true live=true pageUrl=http://www.yupptv.com/account/FlashPlayerFrame.aspx?ChanId=15",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/zz/zoom_tv.jpg"
+    },
+    "9XM": {
+      "channelUrl": "rtmp://210.210.27.37:1935/live/livestream3 swfUrl=http://www.9xm.in/livetv/liveStreamPlayer.swf swfVfy=true live=true",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/num/9xm_in.jpg"
+    }
+  },
+  "NEWS": {
+    "TIMES NOW": {
+      "channelUrl": "rtmp://cdn.rtmp1.yupptv.tv/nwk app=nwk playpath=timesnow swfUrl=http://www.yupptv.com/yupptvhdflvplayer/hdplayer.swf swfVfy=true live=true pageUrl=http://www.yupptv.com/account/FlashPlayerFrame.aspx?ChanId=118",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/tt/times_now.jpg"
+    },
+    "DUNYA NEWS HD": {
+      "channelUrl": "rtmp://50.117.24.90/live playpath=mp4:livestream_1.f4v swfUrl=http://www.dunyanews.tv/livehd/swfs/videoPlayer.swf swfVfy=true pageUrl=http://www.dunyanews.tv/livehd/index.php live=true ",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/dd/dunya_news_tv.jpg"
+    },
+    "DUNYA NEWS": {
+      "channelUrl": "rtmp://173.245.68.50/live playpath=cam swfUrl=http://dunyanews.tv/newsite/live_stream/player.swf pageUrl=http://dunyanews.tv/newsite/live_stream/ live=true swfVfy=true",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/dd/dunya_news_tv.jpg"
+    },
+    "PTV NEWS": {
+      "channelUrl": "rtmp://live.server4sale.com/live/PTVnews swfUrl=http://www.pakistanvision.com/swfs/videoPlayer.swf swfVfy=true pageUrl=http://www.ptv.com.pk/livetvnews.asp live=true ",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/pp/ptv_news.jpg"
+    },
+    "GEO NEWS": {
+      "channelUrl": "rtmp://live.dmasti.pk/news playpath=livestream swfUrl=http://www.f4funda.com/player.swf?title=DunyaNews&allowscriptaccess=always&file=livestream.flv&bufferlength=2&volume=100&bitrate=150&duration=99999999999999999&streamer=rtmp://live.dmasti.pk/news&allowscriptaccess=always%20bgcolor=white&full%20screen=true&autostart=true swfVfy=true pageUrl=http://www.f4funda.com/player.swf?title=DunyaNews&allowscriptaccess=always&file=livestream.flv&bufferlength=2&volume=100&bitrate=150&duration=99999999999999999&streamer=rtmp://live.dmasti.pk/news&allowscriptaccess=always%20bgcolor=white&full%20screen=true&autostart=true live=true ",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/gg/geo_news.jpg"
+    },
+    "Al JAZEERA": {
+      "channelUrl": "rtmp://media2.lsops.net/live/ playpath=aljazeer_en_high.sdp swfUrl=http://www.livestation.com/flash/player/5.4/player.swf pageUrl=http://www.livestation.com/channels/3-al-jazeera-english-english swfVfy=true live=true",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/aa/al_jazeera.jpg"
+    },
+    "CNN": {
+      "channelUrl": "rtmp://media2.lsops.net/live/ playpath=cnn_en_high.sdp swfUrl=http://www.livestation.com/flash/player/5.4/player.swf pageUrl=http://www.livestation.com/channels/66-cnn-international swfVfy=true live=true",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/cc/cnn_usa.jpg"
+    },
+    "BBC NEWS": {
+      "channelUrl": "rtmp://media2.lsops.net/live/ playpath=bbcworld1_en_high.sdp swfUrl=http://www.livestation.com/flash/player/5.4/player.swf pageUrl=http://www.livestation.com/channels/10-bbc-world-news-english swfVfy=true live=true",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/bb/bbc_news.jpg"
+    }
+  },
+  "MTA": {
+    "MTA English": {
+      "channelUrl": "rtsp://ms.mta.tv:1935/live/English500k.stream",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/mm/mta1_al_oula.jpg"
+    },
+    "MTA Urdu": {
+      "channelUrl": "rtsp://ms.mta.tv:1935/live/Urdu500k.stream",
+      "channelLogo": "http://www.lyngsat-logo.com/logo/tv/mm/mta1_al_oula.jpg"
+    }
+  }
+}

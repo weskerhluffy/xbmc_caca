@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>		
+	<category label="General">
+	<setting label="Movie Poster [TMDB]:" type="lsep" />
+	 <setting id="load_image_from_tmdb" type="bool" label="30010" default="true"/>
+	 <setting label="Octoshape [MAC or WINDOWS or LINUX]:" type="lsep" />
+	 <setting id="octoshapePort" type="text" label="30011" default="6498"/>
+	</category>
+	<category label="Downloads">
+	 <setting id="download_folder" type="folder" label="30030" default=""/>
+	 <setting id="del_incomplete_dwnld" type="bool" label="30031" default="true"/>
+	 <setting id="ask_filename" type="bool" label="30032" default="false"/>
+	</category>
+	<category label="YouTube">
+	<setting label="Channels:" type="lsep" />
+	 <setting id="linksPerPage" label="Maximum links per page" type="enum" default="0" lvalues="30000|30001|30002"/>
+	 <setting label="Video:" type="lsep" />
+	 <setting id="videoQual" label="Video quality" type="enum" default="2" lvalues="30003|30004|30005"/>
+	</category>
+	<category label="[B]DesiTv[/B] Streams">
+	<setting label="Login details - Indian channels or Pakistan channels" type="lsep" />
+	 <setting id="cybertv_user" label="30006" type="text" default=""/>
+	<setting id="cybertv_pass" label="30007" type="text" option="hidden" default=""/>
+	
+	<setting label="Login details - Sports channels" type="lsep" />
+	 <setting id="cybercriket_user" label="30006" type="text" default=""/>
+	<setting id="cybercriket_pass" label="30007" type="text" option="hidden" default=""/>
+	
+	<setting label="Streaming server" type="lsep" />
+	<setting id="cybertv_server" label="Select nearest streaming server location" type="enum" default="0" lvalues="30020|30021|30022"/>
+	
+	<setting label="Streaming protocol type" type="lsep" />
+	<setting id="cybertv_stream_type" label="Select video stream type" type="enum" default="0" lvalues="30026|30027"/>
+	</category>
+	<category label="[B]Movies[/B]n[B]TV[/B] Streams">
+	<setting label="Login details - Indian channels or Pakistan channels" type="lsep" />
+	 <setting id="moviesntv_user" label="30006" type="text" default=""/>
+	<setting id="moviesntv_pass" label="30007" type="text" option="hidden" default=""/>
+	
+	<setting label="Streaming server" type="lsep" />
+	<setting id="moviesntv_server" label="Select nearest streaming server location" type="enum" default="0" lvalues="30020|30021|30022"/>
+	
+	<setting label="Streaming protocol type" type="lsep" />
+	<setting id="moviesntv_stream_type" label="Select video stream type" type="enum" default="0" lvalues="30026|30027"/>
+	</category>
+</settings>

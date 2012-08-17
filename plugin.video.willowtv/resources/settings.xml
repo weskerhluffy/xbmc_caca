@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+	<setting id="email" label="30000" type="text" default=""/>
+	<setting id="password" label="30001" type="text" option="hidden" default=""/>
+	</category>
+	<category label="YouTube">
+	<setting label="User details linked with Willow TV account:" type="lsep" />
+	<setting id="yt_email" label="30000" type="text" default=""/>
+	<setting id="yt_password" label="30001" type="text" option="hidden" default=""/>
+	<setting label="Channel:" type="lsep" />
+	 <setting id="linksPerPage" label="Maximum links per page" type="enum" default="0" lvalues="30010|30011|30012"/>
+	 <setting label="Video:" type="lsep" />
+	 <setting id="videoQual" label="Video quality" type="enum" default="2" lvalues="30013|30014|30015"/>
+	</category>
+</settings>

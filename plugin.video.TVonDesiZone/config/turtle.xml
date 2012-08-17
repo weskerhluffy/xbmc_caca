@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://code.google.com/p/apple-tv2-xbmc/turtle/ turtle.xsd"
+	xmlns="https://code.google.com/p/apple-tv2-xbmc/turtle/">
+
+	<action id="__start__"
+		pmessage="Welcome to TV on DESI ZONE|presented by AJ|based on Turtle">
+		<move module="mymoves.Home" function="displayMenuItems" />
+		<next-action name="On_Demand" id="display_TV_Shows"
+			isfolder="true" />
+		<next-action name="Live" id="display_Live_TV" isfolder="true" />
+	</action>
+
+	<!-- ON DEMAND ITEMS -->
+	<action id="display_TV_Shows">
+		<move module="mymoves.Home" function="findTVShowsSource" />
+		<redirect-action name="DR_TV_Channels" id="display_DR_TVChannels" />
+		<redirect-action name="DT_TV_Channels" id="display_DT_TVChannels" />
+	</action>
+
+	<!-- DR actions -->
+	<action id="display_DR_TVChannels">
+		<move module="mymoves.tvshows.DR_TVShows" function="retrieveTVShowsAndSave"
+			pmessage="Retrieving Channels and TV Shows information|Takes about 1 min first time|Refreshes data every month" />
+		<move module="mymoves.tvshows.DR_TVShows" function="displayTVChannels"
+			pmessage="Reading saved information|Preparing TV Channels to be displayed" />
+		<next-action name="TV_Shows" id="display_DR_TVShows"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DR_TVShows">
+		<move module="mymoves.tvshows.DR_TVShows" function="displayTVShows"
+			pmessage="Reading saved information|Preparing TV Shows to be displayed" />
+		<next-action name="Show_Episodes" id="display_DR_TVShowEpisodes"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DR_TVShowEpisodes">
+		<move module="mymoves.tvshows.DR_TVShows" function="retrieveTVShowEpisodes"
+			pmessage="Retrieving TV Show Episodes from source|Please wait..." />
+		<next-action name="Episode_VLinks" id="display_DR_EpisodesVLinks"
+			isfolder="true" />
+		<next-action name="Show_Episodes_Next_Page" id="display_DR_TVShowEpisodes"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DR_EpisodesVLinks">
+		<move module="mymoves.tvshows.DR_TVShows" function="retrieveVideoLinks"
+			pmessage="Retrieving video sources for this episode|Please wait..." />
+		<next-action name="SnapAndPlayVideo" id="snap_and_play_video"
+			isfolder="false" />
+		<next-action name="SnapAndDirectPlayList" id="snap_and_directplay_playlist"
+			isfolder="false" />
+	</action>
+
+	<!-- DT actions -->
+	<action id="display_DT_TVChannels"
+		pmessage="Welcome to TV on DESI ZONE|presented by AJ|based on Turtle">
+		<move module="mymoves.tvshows.DT_TVShows" function="retrieveTVShowsAndSave"
+			pmessage="Retrieving Channels and TV Shows information|Takes about 1 min first time|Refreshed data every month" />
+		<move module="mymoves.tvshows.DT_TVShows" function="displayTVChannels"
+			pmessage="Reading saved information|Preparing TV Channels to be displayed" />
+		<next-action name="TV_Shows" id="display_DT_TVShows"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DT_TVShows">
+		<move module="mymoves.tvshows.DT_TVShows" function="displayTVShows"
+			pmessage="Reading saved information|Preparing TV Shows to be displayed" />
+		<next-action name="Show_Episodes" id="display_DT_TVShowEpisodes"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DT_TVShowEpisodes">
+		<move module="mymoves.tvshows.DT_TVShows" function="retrieveTVShowEpisodes"
+			pmessage="Retrieving TV Show Episodes from source|Please wait..." />
+		<next-action name="IND_Episode_VLinks" id="display_DT_IndEpisodesVLinks"
+			isfolder="true" />
+		<next-action name="PAK_Episode_VLinks" id="display_DT_PakEpisodesVLinks"
+			isfolder="true" />
+		<next-action name="Show_Episodes_Next_Page" id="display_DT_TVShowEpisodes"
+			isfolder="true" />
+	</action>
+
+	<action id="display_DT_IndEpisodesVLinks">
+		<move module="mymoves.tvshows.DT_TVShows" function="retrieveIndVideoLinks"
+			pmessage="Retrieving video sources for this episode|Please wait..." />
+		<next-action name="SnapAndPlayVideo" id="snap_and_play_DT_video"
+			isfolder="false" />
+		<next-action name="SnapAndDirectPlayList" id="snap_and_directplay_DT_playlist"
+			isfolder="false" />
+	</action>
+
+	<action id="display_DT_PakEpisodesVLinks">
+		<move module="mymoves.tvshows.DT_TVShows" function="retrievePakVideoLinks"
+			pmessage="Retrieving video sources for this episode|Please wait..." />
+		<next-action name="SnapAndPlayVideo" id="snap_and_play_video"
+			isfolder="false" />
+		<next-action name="SnapAndDirectPlayList" id="snap_and_directplay_playlist"
+			isfolder="false" />
+	</action>
+
+	<action id="snap_and_play_DT_video">
+		<move module="moves.PreProcessor" function="prepareVideoItem" />
+		<move module="mymoves.tvshows.DT_TVShows" function="prepareVideoLink" />
+		<move module="moves.SnapVideo" function="addVideoInfo" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<action id="snap_and_directplay_DT_playlist">
+		<move module="moves.PreProcessor" function="preparePlayListItems" />
+		<move module="mymoves.tvshows.DT_TVShows" function="prepareVideoLink" />
+		<move module="moves.SnapVideo" function="addVideoInfo" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<!-- Common Video Link Player Moves -->
+
+	
+	<action id="snap_and_play_video">
+		<move module="moves.PreProcessor" function="prepareVideoItem" />
+		<move module="moves.SnapVideo" function="addPlaylistVideosInfo" />
+		<move module="moves.SnapVideo" function="addVideoInfo" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<action id="snap_and_directplay_playlist">
+		<move module="moves.PreProcessor" function="preparePlayListItems" />
+		<move module="moves.SnapVideo" function="addPlaylistVideosInfo" />
+		<move module="moves.SnapVideo" function="addVideoInfo" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+
+	<!-- LIVE TV -->
+	<action id="display_Live_TV">
+		<move module="mymoves.Home" function="displayLiveTvSources" />
+		<move module="mymoves.live.YEAH_Live" function="addYeahLiveItem" />
+		<next-action name="Desi_TV_Streams" id="display_Live_DTS_Channels"
+			isfolder="true" />
+		<next-action name="Movies_n_TV" id="display_Live_MNT_Channels"
+			isfolder="true" />
+		<next-action name="Watch_Sun_TV" id="display_Live_WST_Channels"
+			isfolder="true" />
+		<next-action name="Free_TV" id="display_Live_FREE_Channels"
+			isfolder="true" />
+		<next-action name="Yeah_TV" id="display_Live_YEAH_Channels"
+			isfolder="true" />
+	</action>
+
+	<action id="display_Live_DTS_Channels">
+		<move module="mymoves.live.DTS_Live" function="selectChannelsCategory" />
+		<move module="mymoves.live.DTS_Live" function="login"
+			pmessage="Logging in...|Retrieves channels based subscribed packages" />
+		<move module="mymoves.live.DTS_Live" function="displayChannels" />
+		<next-action name="play_Live_Channel" id="play_Live_DTS_Channel"
+			isfolder="false" />
+	</action>
+
+	<action id="play_Live_DTS_Channel">
+		<move module="mymoves.live.DTS_Live" function="login"
+			pmessage="Logging in...|Retrieves LIVE link of selected channel" />
+		<move module="mymoves.live.DTS_Live" function="retrieveLiveLink" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+
+	<action id="display_Live_MNT_Channels">
+		<move module="mymoves.live.MNT_Live" function="selectChannelsCategory" />
+		<move module="mymoves.live.MNT_Live" function="login"
+			pmessage="Logging in...|Retrieves channels based subscribed packages" />
+		<move module="mymoves.live.MNT_Live" function="displayChannels" />
+		<next-action name="play_Live_Channel" id="play_Live_MNT_Channel"
+			isfolder="false" />
+	</action>
+
+	<action id="play_Live_MNT_Channel">
+		<move module="mymoves.live.MNT_Live" function="login"
+			pmessage="Logging in...|Retrieves LIVE link of selected channel" />
+		<move module="mymoves.live.MNT_Live" function="retrieveLiveLink" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<action id="display_Live_WST_Channels">
+		<move module="mymoves.live.WST_Live" function="login"
+			pmessage="Logging in...|Retrieves channels based subscribed packages" />
+		<move module="mymoves.live.WST_Live" function="displayChannels" />
+		<next-action name="play_Live_Channel" id="play_Live_WST_Channel"
+			isfolder="false" />
+	</action>
+
+	<action id="play_Live_WST_Channel">
+		<move module="mymoves.live.WST_Live" function="login"
+			pmessage="Logging in...|Retrieves LIVE link of selected channel" />
+		<move module="mymoves.live.WST_Live" function="retrieveLiveLink" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<action id="display_Live_YEAH_Channels">
+		<move module="mymoves.live.YEAH_Live" function="selectChannelsCategory" />
+		<move module="mymoves.live.YEAH_Live" function="displayChannels" />
+		<next-action name="play_Live_Channel" id="play_Live_YEAH_Channel"
+			isfolder="false" />
+	</action>
+
+	<action id="play_Live_YEAH_Channel">
+		<move module="mymoves.live.YEAH_Live" function="playChannel" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+
+	<action id="display_Live_FREE_Channels">
+		<move module="mymoves.live.FREE_Live" function="selectChannelsCategory" />
+		<move module="mymoves.live.FREE_Live" function="displayChannels" />
+		<next-action name="play_Live_Channel" id="play_Live_FREE_Channel"
+			isfolder="false" />
+	</action>
+
+	<action id="play_Live_FREE_Channel">
+		<move module="mymoves.live.FREE_Live" function="playChannel" />
+		<next-action name="Play" id="__play__" isfolder="false" />
+	</action>
+</turtle>

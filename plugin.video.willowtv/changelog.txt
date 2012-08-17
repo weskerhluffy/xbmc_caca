@@ -1,0 +1,101 @@
+[B]Version v1.0[/B]
+
+- Willow TV Initial Version
+
+[B]Version v1.0.1[/B]
+
+- Alpha release
+
+[B]Version v1.1.0[/B]
+
+- Streams working.
+
+[B]Version v1.1.1[/B]
+
+- Added local time zone support.
+
+[B]Version v1.1.2[/B]
+
+- Updated Date Format.
+
+[B]Version v1.1.3[/B]
+
+- Local time has been fixed.
+
+[B]Version v1.1.4[/B]
+
+- Minor changes to Keep Addon up to date with Willow.tv changes.
+
+[B]Version v1.2.0[/B]
+
+- Major Update - Enabled Direct TV [Willow Video Streaming] links
+- All Streaming links will work.
+
+[B]Version v1.2.1[/B]
+
+- Removed (Video Scorecard) link that will not work.
+- Added few alerts.
+
+[B]Version v1.2.2[/B]
+
+- Added fanarts
+
+[B]Version v1.2.3[/B]
+
+- Added icons
+
+[B]Version v1.2.4[/B]
+
+- Added direct video stream links
+
+[B]Version v1.2.5[/B]
+
+- Added BACKUP willow tv website 
+
+[B]Version v1.2.6[/B]
+
+- Fixed a bug
+
+[B]Version v1.3.0[/B]
+
+- Updated to work with 6 months Season Pass 
+
+[B]Version v1.3.1[/B]
+
+-Quick bug fix.
+
+[B]Version v1.3.2[/B]
+
+-Added LIVE VIDEO support through YouTube Account.
+
+[B]Version v1.3.3[/B]
+
+-Added new YouTube video link support. LIVE links will be updated soon.
+
+[B]Version v1.3.4[/B]
+
+-Few modifications to make LIVE links work. 
+
+[B]Version v1.3.5[/B]
+
+-YouTube LIVE video links will work now. Watch HD 720P live video. 
+
+[B]Version v1.3.6 & v1.3.7[/B]
+
+-Handling added for new google accounts login URL.
+
+[B]Version v1.3.8[/B]
+
+-Added 2-step authentication support.
+
+[B]Version v1.3.9[/B]
+
+-Added UPCOMING event links.
+
+[B]Version v1.4.1[/B]
+
+-Added normal or 2-step authentication for YouTube.
+
+[B]Version v1.4.3 - v1.4.4[/B]
+
+-Enabled LIVE video quality selection option.

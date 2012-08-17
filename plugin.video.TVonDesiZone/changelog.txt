@@ -1,0 +1,95 @@
+[B]Version v1.0.0[/B]
+
+New way to watch DESI TV
+
+[B]Version v1.0.2[/B]
+
+New icon and added new progress info message
+
+[B]Version v1.0.3[/B]
+
+Added Pakistani channels and enabled settings to choose to hide India|Pakistani channels
+
+[B]Version v1.0.5[/B]
+
+Added new video source for TV Shows. Settings are enabled to select TV Shows source.
+
+[B]Version v1.0.6[/B]
+
+Bug fixes.
+
+[B]Version v1.0.7[/B]
+
+Added new TV Channels to DR. 
+
+[B]Version v1.0.8[/B]
+
+Added force refresh TV Shows cached data settings.
+
+[B]Version v1.0.9[/B]
+
+Added LIVE links.
+
+[B]Version v1.1.0 + v1.1.1[/B]
+
+Quick BUG fixes.
+
+[B]Version v1.1.2[/B]
+
+Better exception handling & on demand loading issue fixed.
+
+[B]Version v1.1.3 & v1.1.4[/B]
+
+Fixed freezing issues and new Turtle version.
+
+[B]Version v1.1.5[/B]
+
+Force refresh for new channel and episodes.
+
+[B]Version v1.1.6[/B]
+
+Made it compatible with XBMC Dharma Release
+
+[B]Version v1.1.7[/B]
+
+Remove XBMC Progress Bar usage
+
+[B]Version v1.1.8[/B]
+
+New Turtle version
+
+[B]Version v1.1.9[/B]
+
+- Refined parsing of YouTube HD streaming
+
+[B]Version v1.2.0[/B]
+
+- Few bug fixes
+
+[B]Version v1.2.1[/B]
+
+- Made TurtleService more generic.
+
+[B]Version v1.2.2[/B]
+
+- Corrected URL bug.
+
+[B]Version v1.2.3[/B]
+
+- Added flash video streaming support for DesiTVStreams and MoviesnTV
+
+[B]Version v1.2.4[/B]
+
+- Hide watchsuntv.com streams until it is not working. + Added Dunya news low quality channel
+
+[B]Version v1.2.5 - v1.2.6[/B]
+
+- MoviesNTV and DesiTVStreams channel name will have FLASH HQ in label
+
+[B]Version v1.2.9[/B]
+
+- Fixed DR links
+
+[B]Version v1.3.0[/B]
+
+- Fixed both DR and DT links as request by my Friend on FriendShip day
